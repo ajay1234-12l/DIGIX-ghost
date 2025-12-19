@@ -815,12 +815,12 @@ def custom_nr_command():
     
     # Use the same ghost name for all accounts
     ghost_names = {
-            "4306612045": ghost_name,
-            "4306612050": ghost_name, 
-            "4306612026": ghost_name,
-            "4306612027": ghost_name,
-            "4306612035": ghost_name
-        }
+        "4306612045": ghostname,
+        "4306612050": ghostname, 
+        "4306612026": ghostname,
+        "4306612027": ghostname,
+        "4306612035": ghostname
+    }
 
     for account_id, client in clients.items():
         account_name = ghost_names.get(str(account_id), str(account_id))
