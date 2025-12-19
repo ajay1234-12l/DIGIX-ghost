@@ -50,7 +50,7 @@ shared_0500_info = {
     'AutH': None
 }
 
-MASTER_ACCOUNT_ID = '4146829485'  # add main lobby bot account uid
+MASTER_ACCOUNT_ID = '4306612045'  # add main lobby bot account uid
 
 def AuTo_ResTartinG():
     while not shutting_down:
